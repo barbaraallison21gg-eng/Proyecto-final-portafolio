@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lanzamiento nuevos audifonos</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body class="" style="background-color: #0d1117">
+    <nav
+      class="navbar navbar-expand-md sticky-top border-bottom"
+      style="background-color: #0d1117"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <i class="bi bi-aperture fs-4 me-1"></i>
+          Audiofilo
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvas"
+          aria-controls="offcanvas"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvas"
+          aria-labelledby="offcanvasLabel"
+        >
+          <div class="offcanvas-body ms-auto">
+            <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Características</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#myCarousel">Diseño</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#wl-form">Unete</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="container">
+      <!-- Hero -->
+      <section
+        class="row mt-4 p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 shadow-lg"
+        style="border: 1px solid #2b3442"
+      >
+        <div class="col-lg-6 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1 text-light">Sonido sin límites.</h1>
+          <p class="lead text-white">
+            Descubre los audífonos diseñados para elevar tu día a día con
+            comodidad y potencia.
+          </p>
+          <div
+            class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
+          >
+            <button
+              type="button"
+              class="btn btn-warning btn-lg px-4 me-md-2 fw-bold text-body-secondary"
+            >
+              Acceso Anticipado
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-5 offset-lg-1 p-0 overflow-hidden rounded-3">
+          <img
+            id="hero-img"
+            class=""
+            src="./assets/img/pexels-mario-mota-235376087-14935011.jpg"
+            alt=""
+            width="720"
+          />
+        </div>
+      </section>
+
+      <!-- Caracteristicas / Features -->
+      <section
+        id="features"
+        class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5"
+      >
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="
+              background-image: url('./assets/img/pexels-parag-deshmukh-180046-577769.jpg');
+              background-position: center;
+            "
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 bg-dark bg-opacity-50"
+            >
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                Cancelación Activa Inteligente
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="
+              background-image: url('./assets/img/pexels-www-erzetich-com-2510575.jpg');
+              background-position: center;
+            "
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 bg-dark bg-opacity-50"
+            >
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                Sonido de Alta Fidelidad
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="
+              background-image: url('./assets/img/pexels-mutecevvil-20447501.jpg');
+              background-position: center;
+            "
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 bg-dark bg-opacity-50"
+            >
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                Comodidad para Todo el Día
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Carrusel -->
+      <section
+        id="myCarousel"
+        class="carousel slide mb-6"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            aria-label="Slide 1"
+            class="active"
+            aria-current="true"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/img/pexels-pavel-danilyuk-8000610.jpg"
+              alt=""
+              class="d-block w-100 carousel-img"
+            />
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Ligeros, suaves y ergonómicos.</h1>
+                <p class="opacity-75">
+                  Almohadillas adaptables y estructura balanceada para usar
+                  durante horas sin molestias.
+                </p>
+                <!-- <p>
+                  <a class="btn btn-lg btn-primary" href="#">Sign up today</a>
+                </p> -->
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/img/pexels-fox-58267-2046807.jpg"
+              alt=""
+              class="d-block w-100 carousel-img"
+            />
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Elegancia que se siente.</h1>
+                <p>
+                  Líneas limpias, materiales premium y un diseño pensado para
+                  acompañarte en cualquier estilo de vida.
+                </p>
+                <!-- <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p> -->
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/img/pexels-pavel-danilyuk-8001054.jpg"
+              alt=""
+              class="d-block w-100 carousel-img"
+            />
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Hechos para resistir más.</h1>
+                <p>
+                  Fabricados con acabados de alta calidad y componentes
+                  duraderos que mantienen su rendimiento día tras día.
+                </p>
+
+                <!-- <p>
+                  <a class="btn btn-lg btn-primary" href="#">Browse gallery</a>
+                </p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+
+      <!-- Preguntas y respuestas -->
+      <section class="my-5 pt-5" id="faq">
+        <h2 class="text-center text-light mb-4 fw-bold">
+          Todo lo que necesitas saber
+        </h2>
+        <p class="text-center text-secondary mb-5">
+          Resolvemos tus dudas para que disfrutes el mejor sonido.
+        </p>
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item" style="border: 1px solid #2b3442">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button bg-dark text-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                ¿Los audífonos son compatibles con cualquier dispositivo?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div
+                class="accordion-body text-light"
+                style="background-color: #161b22"
+              >
+                Sí, nuestros audífonos funcionan con teléfonos, computadores y
+                tablets que cuenten con Bluetooth 5.0 o superior. No necesitas
+                instalar aplicaciones adicionales.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" style="border: 1px solid #2b3442">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed bg-dark text-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                ¿Cuánto dura la batería con una sola carga?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div
+                class="accordion-body text-light"
+                style="background-color: #161b22"
+              >
+                La batería ofrece hasta 30 horas de reproducción continua,
+                dependiendo del volumen y el uso de la cancelación activa de
+                ruido.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" style="border: 1px solid #2b3442">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed bg-dark text-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                ¿Son resistentes al agua o al sudor?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div
+                class="accordion-body text-light"
+                style="background-color: #161b22"
+              >
+                Sí, cuentan con certificación IPX5, lo que los hace resistentes
+                a salpicaduras y sudor, ideales para entrenamientos o uso
+                diario.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Formulario -->
+      <section
+        class="card py-5 align-items-center my-5"
+        id="wl-form"
+        style="background-color: #161b22"
+      >
+        <form class="p-4 rounded-4 needs-validation text-light" novalidate>
+          <h2 class="mb-3 fw-bold">Únete a la Lista de Espera</h2>
+          <p class="mb-4">Sé el primero en obtener acceso cuando lancemos.</p>
+
+          <div class="mb-3">
+            <label
+              for="waitlistEmail"
+              class="form-label"
+              for="validationCustomEmail"
+              >Correo electrónico</label
+            >
+            <div class="input-group has-validation">
+              <input
+                type="email"
+                class="form-control"
+                id="validationCustomEmail"
+                placeholder="tucorreo@example.com"
+                aria-describedby="inputGroupPrepend"
+                required
+              />
+              <div class="invalid-feedback">Ingresa un correo valido</div>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-warning w-100 btn-lg fw-bold">
+            Unirme a la Waitlist
+          </button>
+
+          <small class="d-block text-muted text-center mt-3">
+            No enviamos spam. Puedes darte de baja cuando quieras.
+          </small>
+        </form>
+      </section>
+    </main>
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="mb-3 mb-md-0 text-secondary"
+            >© 2025 Compañia audifonos</span
+          >
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-secondary" href="#" aria-label="Instagram">
+              <i class="bi bi-instagram fs-4"></i>
+            </a>
+          </li>
+          <li class="ms-3">
+            <a class="text-secondary" href="#" aria-label="Facebook">
+              <i class="bi bi-facebook fs-4"></i>
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="waitlistSuccessModal"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4">
+          <div class="modal-header border-0">
+            <h5 class="modal-title fw-bold">¡Estás en la lista! 🎉</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="modal-body text-center">
+            <p class="mb-3">
+              Gracias por unirte a nuestra lista de espera. Te avisaremos cuando
+              lancemos para que tengas acceso anticipado.
+            </p>
+          </div>
+
+          <div class="modal-footer border-0">
+            <button
+              type="button"
+              class="btn btn-primary w-100 fw-bold"
+              data-bs-dismiss="modal"
+            >
+              Continuar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
